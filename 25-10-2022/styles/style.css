@@ -1,0 +1,17 @@
+/* Modo para llamar un elemento a través de su etiqueta, directamente va el nombre de la etiqueta */
+p {
+    color: red;
+    font-size: 80px;
+}
+
+/* Modo para llamar un elemento a través de una clase: anteponiendo un numeral antes del nombre del ID */
+#bio {
+    color: blue;
+    background-color: blueviolet;
+}
+
+/* Modo para llamar un elemento a través de una clase: anteponiendo un punto antes del nombre de la clase */
+.clase1 {
+    font-size: 20px;
+    font-family: 'Freehand', cursive;
+}
