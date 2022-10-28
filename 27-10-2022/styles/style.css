@@ -1,0 +1,122 @@
+/* h1 {
+    background-color: aquamarine;
+    display: block;
+    text-align: center;
+    width: 700px;
+    height: 300px;
+}
+
+h2 {
+    background-color: burlywood;
+    display: block;
+    text-align: right;
+}
+
+p {
+    background-color: chocolate;
+    display: block;
+}
+
+span {
+    background-color: brown;
+    color: white;
+}
+
+a {
+    display: block;
+    background-color: aquamarine;
+}
+
+.span-alineado {
+    text-align: center;
+    width: 500px;
+}
+
+.span-diferente {
+    display: block;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+} */
+
+/* h1 {
+    width: 300px;
+    text-align: center;
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    margin: 100px auto;
+} */
+
+/* li {
+    list-style: none;
+} */
+
+/* h2 {
+    width: 50%;
+    text-align: center;
+    background-color: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    margin: 100px auto;
+    border: 2px dashed red;
+    box-shadow: 2px 2px 2px 1px rgba(165, 35, 35, 0.346);
+    text-decoration: underline;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main {
+    background-color: #a5d6a7;
+    width: 100%;
+    height: 100vh;
+    padding: 200px 0;
+    font-family: "Muli", sans-serif;    
+}
+
+/* div es el contenedor más usado en html, quiere decir divisor y sirve para organizar el
+contenido de forma semántica. */
+div {
+    width: 380px;
+    margin: 0 auto;
+    background-color: #f7f7fc;
+    padding: 40px;
+    border-radius: 10px;
+    /* Box shadow primero recibe las coordenadas para la sobra y 
+    luego el color de la misma */
+    box-shadow: 0 5px 20px rgb(0 0 0 / 30%);
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    padding: 15px;
+    color: #a4b1c5;
+}
+
+li {
+    text-align: center;
+    /* List none les quita a las opciones de lista la viñeta que trae por defecto */
+    list-style: none;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* 
+    display: Determina el tipo de display de un elemento, éste puede ser inline o block.
+    padding: Espaciado por dentro de un elemento (relleno).
+    margin: Espaciado entre elementos, por fuera del mismo (margen).
+*/
