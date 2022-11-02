@@ -1,0 +1,30 @@
+
+/* Selector universal, lo que se aplique aquí debajo se aplicará a todos los elementos,
+estas tres propiedades también sirven para resetear el margen que trae por defecto el navegador. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bandera-colombia {
+  width: 400px;
+  height: 300px;
+  background-color: bisque;
+  margin: 100px auto;
+}
+
+.franja-amarilla {
+  height: 150px;
+  background-color: #faa700;
+}
+
+.franja-azul {
+  height: 75px;
+  background-color: #0030a6;
+}
+
+.franja-roja {
+  height: 75px;
+  background-color: #c8102e;
+}
