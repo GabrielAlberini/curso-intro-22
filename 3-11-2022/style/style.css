@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  background-color: rgb(115, 243, 201);
+  padding: 50px;
+  /* display: flex; solo "funciona" en contenedores padres, es así porque lo que le estamos indicando es que sus "hijos" puedan reposicionarse. */
+  display: flex;
+  /* align-items alinea los elementos hijos en el eje Y */
+  align-items: center;  
+  /* justify-content alinea los elementos hijos en el eje X */
+  justify-content: space-between;
+}
+
+/* Para "llamar" ciertas etiquetas podemos especificar donde se encuentran anteponiendo el contenedor paddre */
+header img {
+  width: 100px;
+}
+
+/* Aquí se aplica display flex porque los elementos hijos son los li */
+ul {
+  display: flex;
+  background-color: blanchedalmond;
+}
+
+li {
+  background-color: red;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+}
+
+main {
+  background-color: rgb(125, 200, 125);
+  padding: 50px;
+}
+
+footer {
+  background-color: rgb(239, 169, 179);
+  padding: 50px;
+}
+
+footer a {
+  background-color: blue;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
