@@ -1,0 +1,32 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* p {
+  font-size: 20px;
+  font-family: sans-serif;
+  width: 50%;
+  margin: 100px auto;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.txt-1 {
+  color: red;
+}
+
+.txt-2 {
+  color: blue;
+} */
+
+div {
+  display: flex;
+  background-color: lightgreen;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

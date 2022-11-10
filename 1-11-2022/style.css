@@ -1,6 +1,6 @@
-
 /* Selector universal, lo que se aplique aquí debajo se aplicará a todos los elementos,
 estas tres propiedades también sirven para resetear el margen que trae por defecto el navegador. */
+
 * {
   margin: 0;
   padding: 0;
