@@ -1,0 +1,75 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-main {
+  width: 60%;
+  height: 70%;
+  background-color: white;
+  display: flex;
+}
+
+h1, h2, p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.cont-uno {
+  background-color: red;
+  padding: 20px;
+  background-image: url("img/chica.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.cont-dos {
+  background-color: blue;
+  height: 50%;
+  padding: 20px;
+  background-image: url("img/pera.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.cont-tres {
+  background-color: yellow;
+  height: 50%;
+  padding: 20px;
+  background-image: url("img/esparrago.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (max-width: 480px) {
+  .cont-main {
+    width: 100%;
+    margin: 20px;
+    flex-direction: column;
+  }
+
+  .cont-uno,.cont-dos, .cont-tres {
+    padding: 50px 10px;
+  }
+}
