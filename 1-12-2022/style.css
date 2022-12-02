@@ -1,0 +1,13 @@
+.div-mayor {
+  width: 50%;
+  margin: 150px auto;
+  border: 1px solid black;
+  padding: 1em;
+  background-color: aquamarine;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.text {
+  color: red;
+}
