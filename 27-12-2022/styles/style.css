@@ -1,0 +1,24 @@
+.container {
+  width: 350px;
+  height: 250px;
+  border: 1px solid black;
+  background-color: antiquewhite;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container p {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 23px;
+}
+
+.lost {
+  background-color: red;
+}
+
+.win {
+  background-color: green;
+}
